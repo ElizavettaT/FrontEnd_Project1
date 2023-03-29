@@ -1,0 +1,16 @@
+.hero{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    border: 2px solid #ececec;
+}
+.authorbox img{
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px 5px 10px;
+    width: 50%;
+}
+
+.authorbox{
+    color: #4c4c4a;
+    margin: 40px 5px 5px 0;
+}
