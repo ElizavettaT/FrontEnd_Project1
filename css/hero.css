@@ -2,7 +2,19 @@
     grid-column: 3 / 4;
     grid-row: 2 / 3;
     border: 2px solid #ececec;
+    border-top: 2px solid #E85A4F;
+    margin-top: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    .hero{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column: 1 / -1;
+        grid-row: 3 / 4;
+    }
+}
+
 .authorbox img{
     border-radius: 50%;
     float: left;
@@ -12,5 +24,5 @@
 
 .authorbox{
     color: #4c4c4a;
-    margin: 40px 5px 5px 0;
+    margin: 20px 5px 20px 10px;
 }
